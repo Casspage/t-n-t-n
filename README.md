@@ -20,13 +20,28 @@ transform:translateY(0);
 
 /* NAVBAR ĐỔI MÀU */
 
+/* NAV */
 nav{
-transition:.4s;
+position:fixed;
+top:0;
+width:100%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 40px;
+background:rgba(0,0,0,.65);
+backdrop-filter:blur(10px);
+z-index:999;
 }
 
-nav.scrolled{
-background:#1e120b;
+nav h1{color:#fff;}
+nav a{
+color:#fff;
+margin-left:18px;
+text-decoration:none;
+font-size:14px;
 }
+nav a:hover{color:#c58b45;}
 
 /* HERO HIỆN MƯỢT */
 
